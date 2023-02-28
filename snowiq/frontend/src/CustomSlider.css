@@ -1,0 +1,26 @@
+.backimage {
+  background: url(1.png);
+  background-size: cover;
+}
+.input-box:focus {
+  background: yellow;
+}
+body {
+  font-family: "Rubik";
+}
+
+.block-container {
+  padding: none;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
