@@ -1,3 +1,8 @@
+body {
+  width: 75%;
+  margin: auto;
+}
+
 .backimage {
   background: url(1.png);
   background-size: cover;
